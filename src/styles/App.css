@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+.post {
+    display: flex;
+    padding: 15px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+.page__current {
+    border: 2px solid blueviolet;
+    font-weight: bold;
+}
